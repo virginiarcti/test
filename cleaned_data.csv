@@ -1,0 +1,344 @@
+internal Number,Gestation_enrol,Age_enrol,Parity,Gravida,General Examination_enrol,Cardiovascular_enrol,Respiratory_enrol,Weight(Kg)_enrol,Height_enrol,History of Malaria since last visit_enrol,"If yes, Indicate treatment",Sleep under Net_enrol,HB (g/dl),Blood Group,Rhesus,Syphilis_enrol,TB Screening_enrol,HIV_enrol,Urinalysis_enrol,Parasitemia/ul_enrol,Random Sugar Level_enrol,...23,"GESTATION BY
+WEEKS  delivery",SEX,"TYPE OF DELIVERY
+C/S/SVD","BIRTH
+WEIGHT OF THE BABY (KG)","NEWBORN
+ OUTCOME WITHIN 6 MONTHS",...29,GESTATION BY WEEKS
+#163,20,22,1+1,3,Good,Normal,NAD,12.5,161,blank,n/a,blank,12.5,B,Positive,Negative,Negative,Negative,NAD,800,4.0999999999999996,NA,40,male,SVD,3,alive and well,NA,40
+#97,28,24,2+1,4,Good,Normal,NAD,36,150,Yes,Artesunate,NA,NA,A,Positive,Negative,Negative,Negative,Pus Cells,80 0,4.2,NA,38,female,SVD,2.1,alive and well webuye,NA,38
+#109,15,25,2+1,4,Good,Normal,NAD,38,147,Yes,AL,NA,13.5,O,Positive,Negative,Negative,Negative,Pus Cells,2000,4.6,NA,41,female,SVD,3,alive and well,NA,41
+#19,38,38,4+0,5,Good,Normal,NAD,39,139,NO,NA,NA,10.9,B,Positive,Negative,Negative,Positive,NAD,0,4.8,NA,39,male,SVD,3.5,alive and well,NA,39
+#243,10,20,1+1,3,Good,Normal,NAD,41,142,Yes,AL,Yes,13.6,O,Positive,Negative,Negative,Negative,NAD,0,4.4000000000000004,NA,39,male,SVD,3.8,alive and well,NA,39
+#11,18,21,1+0,2,Good,Normal,NAD,42,148,Yes,AL,NA,12.4,AB,Positive,Negative,Negative,Negative,NAD,800,5.0,NA,39,female twins,C/S,3.3/3.1,alive and well,NA,39
+#33,17,20,0+0,1,Good,Normal,NAD,42,144,Yes,AL,NA,10.8,A,Positive,Negative,Negative,Negative,Pus Cells,2400,5.7,NA,40,female,SVD,3,alive and well,NA,40
+#161,17,29,2+0,3,Good,Normal,NAD,42,149,Yes,AL,blank,11.7,O,Positive,Negative,Negative,Negative,Pus Cells,0,5.2,NA,40,female,SVD,3.4,alive and well,NA,40
+#174,13,28,0+1,2,Good,Normal,NAD,44,156,blank,n/a,blank,12.1,A,Positive,Negative,Negative,Negative,Pus Cells,0,5.3,NA,40,male,SVD,3,alive and well,NA,40
+#76,9,20,0+0,1,Good,Normal,NAD,45,150,NA,NA,NA,12.7,B,Positive,Negative,Negative,Positive,NAD,0,4.7,NA,38,male,SVD,2.6,alive and well,NA,38
+#108,13,25,0+0,1,Fair,Normal,NAD,45,159,Yes,AL,NA,13.2,O,Positive,Negative,Negative,Negative,NAD,1200,4.1,NA,40,female,C/S,3.4,alive C's due to fibroids,NA,40
+#52,26,21,1+0,2,Good,Normal,NAD,46,149,Yes,AL,NA,9,B,Positive,Negative,Negative,Negative,NAD,80000,5.8,NA,40,male,SVD,3.2,alive and well,NA,40
+#162,20,24,1+0,2,Good,Normal,NAD,46,165,blank,n/a,blank,10.4,B,Positive,Negative,Negative,Negative,NAD,24000,4.5,NA,38,male,SVD,2.6,alive and well,NA,38
+#164,14,35,2+0,3,Sick looking,Normal,NAD,46,157,blank,n/a,blank,13.3,Blank,blank,Negative,Negative,Negative,NAD,0,5.3,NA,40,female,SVD,3.2,alive and well,NA,40
+#177,13,22,0+0,1,Good,Normal,NAD,46,162,blank,n/a,blank,13,O,Positive,Negative,Negative,Negative,Pus Cells,0,4.5999999999999996,NA,40,female,SVD,3.5,alive and well,NA,40
+#26,18,20,0+0,1,Good,Normal,NAD,47,158,Yes,Artesunate,NA,12.4,A,Positive,Negative,Negative,Negative,NAD,1200,8.4,NA,40,male,C/S,3.8,alive and well,NA,40
+#226,16,24,2+0,3,Good,Normal,NAD,47,155,No,n/a,Yes,15.8,A,Positive,Negative,Negative,Negative,NAD,0,4.5,NA,40,male,SVD,3,alive and well,NA,40
+#228,16,20,1+0,2,Good,Normal,NAD,47,158,No,n/a,Yes,13.9,A,Positive,Negative,Negative,Negative,Red Blood Cells,0,4.8,NA,NA,NA,NA,NA,NA,NA,NA
+#79,30,21,1+0,2,Good,Normal,NAD,48,150,NA,NA,NA,8.9,AB,Positive,Negative,Negative,Positive,NAD,0,4.8,NA,39,male,C/S,3.4,Died within 48 hrs,NA,39
+#21,27,27,0+0,1,Good,Normal,NAD,49,148,Yes,Quinine,NA,15.3,A,Positive,Negative,Negative,Negative,Pus Cells,1200,5.2,NA,39,male,SVD,2.5,alive and well,NA,39
+#54,22,22,1+0,2,Good,Normal,NAD,49,158,Yes,AL,NA,8,O,Positive,Negative,Negative,Negative,Pus Cells,8000,4.8,NA,40,female,SVD,3.2,alive and well,NA,40
+#102,18,18,0+0,1,Good,Normal,NAD,49,144,Yes,AL,NA,13,O,Positive,Negative,Negative,Negative,BLOOD,1800,4.6,NA,39,female,SVD,3.2,alive and well,NA,39
+#137,16,17,0+0,1,Good,Normal,NAD,49,167,Yes,AL,blank,12.6,AB,Positive,Negative,Negative,Negative,NAD,6400,5.0,NA,NA,NA,NA,"ab_mis
+",NA,NA,"MISCARRIED
+24/40"
+#159,8,24,2+0,3,Good,Normal,NAD,49,152,blank,n/a,blank,14.5,A,Negative,Negative,Negative,Negative,NAD,0,4.9,NA,NA,NA,NA,"ab_mis
+",NA,NA,ABORTION
+#35,21,29,0+0,1,Good,Normal,NAD,50,144,Yes,AL,NA,10.3,O,Positive,Negative,Negative,Negative,NAD,1200,5.0,NA,38,female,SVD,3.2,alive and well,NA,38
+#56,20,25,2+0,3,Good,Normal,NAD,50,144,NA,NA,NA,9.6,O,Positive,Negative,Negative,Positive,NAD,0,5,NA,40,male,SVD,3,alive and well,NA,40
+#98,14,18,0+0,1,Good,Normal,NAD,50,157,Yes,AL,NA,14.2,A,Positive,Negative,Negative,Negative,NAD,1800,3.8,NA,40,female,SVD,3.2,alive and well,NA,40
+#152,14,23,0+0,1,Good,Normal,NAD,50,171,blank,n/a,blank,13.6,A,Positive,Negative,Negative,Negative,Pus Cells,0,5,NA,40,female,C/S,3.6,alive and well,4,40
+#206,6,24,0+1,2,Good,Normal,NAD,50,156,blank,n/a,blank,11.9,O,Positive,Negative,Negative,Negative,NAD,0,5.5,NA,40,female,C/S,2.8,alive and well,NA,40
+#215,11,25,0+0,1,Good,Normal,NAD,50,165,blank,n/a,blank,16.7,A,Positive,Negative,Negative,Negative,Pus Cells,0,4.3,NA,39,female,SVD,3.2,alive and well,NA,39
+#219,12,25,0+0,1,Good,Normal,NAD,50,167,No,n/a,Yes,14.6,O,Positive,Negative,Negative,Negative,NAD,0,4.9000000000000004,NA,39,female,SVD,2.8,alive and well,NA,39
+#232,7,27,0+1,2,Good,Normal,NAD,50,170,No,n/a,Yes,10.8,O,Positive,Negative,Negative,Negative,Pus Cells,0,4.5,NA,NA,NA,NA,"ab_mis
+",NA,NA,ABORTON-20/40weeks
+#53,22,27,1+1,3,Good,Normal,NAD,51,151,NA,NA,NA,13.1,AB,Positive,Negative,Negative,Positive,NAD,0,4.1,NA,40,male,SVD,2.8,alive and well,NA,40
+#88,28,29,2+0,3,Good,Normal,NAD,51,149,NA,NA,NA,12,B,Positive,Negative,Negative,Positive,NAD,0,5.9,NA,38,Intra Uterine Fetal Death,NA,2,macerated,NA,38
+#171,14,22,0+0,1,Good,Normal,NAD,51,160,blank,n/a,blank,12.4,O,Positive,Negative,Negative,Negative,NAD,0,4.4000000000000004,NA,40,female,SVD,3.2,alive and well,NA,40
+#198,6,26,0+2,3,Good,Normal,NAD,51,159,blank,n/a,blank,13.4,O,Positive,Negative,Negative,Negative,NAD,0,4.7,NA,39,female,SVD,3.4,alive and well,NA,39
+#199,5,32,1+0,2,Good,Normal,NAD,51,158,blank,n/a,blank,13.6,O,Positive,Negative,Negative,Negative,NAD,0,4.5,NA,40,male,SVD,3,alive and well,NA,40
+#289,16,22,0+0,1,Good,Normal,NAD,51,164,No,NA,Yes,11.5,O,Positive,Negative,Negative,Negative,NAD,0,4.8,NA,38,male,C/S,4,alive and well,NA,38
+#190,6,30,1+0,2,Good,Normal,NAD,51.5,154,blank,n/a,blank,14.4,O,Positive,Negative,Negative,Negative,Pus Cells,0,4.5,NA,40,female,SVD,3.4,alive and well,NA,40
+#7,22,24,0+0,1,Good,Normal,NAD,52,165,NO,NA,NA,9.9,B,Positive,Negative,Negative,Positive,Pus Cells,0,3.8,NA,40,male,SVD,3.7,alive and well,NA,40
+#63,23,19,0+0,1,Good,Normal,NAD,52,161,Yes,AL,NA,7.3,A,Positive,Negative,Negative,Negative,NAD,8000,4.9,NA,40,male,SVD,2.8,alive and well,NA,40
+#67,24,17,0+0,1,Good,Normal,NAD,52,148,Yes,AL,NA,8.5,B,Positive,Negative,Negative,Negative,NAD,12000,5.4,NA,40,female,SVD,2.5,alive and well,NA,40
+#106,28,20,0+0,1,Good,Normal,NAD,52,150,Yes,Artesunate,NA,12.2,A,Positive,Negative,Negative,Negative,Pus Cells,4800,4.7,NA,39,male,SVD,3,alive and well,NA,39
+#168,16,22,0+0,1,Good,Normal,NAD,52,165,blank,n/a,blank,12.4,O,Positive,Negative,Negative,Negative,NAD,0,4.8,NA,39,male,SVD,3.5,alive and well,NA,39
+#251,8,24,1+0,2,Good,Normal,NAD,52,158,No,n/a,Yes,12.7,O,Positive,Negative,Negative,Negative,NAD,0,4.5999999999999996,NA,37,"female
+male",SVD,"2.6
+2.4",alive had malaria for 1 month,NA,37
+#264,16,24,0+0,1,Good,Normal,NAD,52,161,No,n/a,Yes,10.7,O,Positive,Negative,Negative,Negative,NAD,0,5.0999999999999996,NA,40,Male,"C/S
+",3.8,admitted for 2weeks due to pneumonia,NA,40
+#291,4,29,0+0,2,Good,Normal,NAD,52,160,No,NA,Yes,14.4,AB,Positive,Negative,Negative,Negative,Pus Cells,0,4.5,NA,40,male,SVD,3.5,alive and well,NA,40
+#292,9,19,1+0,2,Good,130/75,NAD,52,149,No,NA,Yes,15.45,O,Positive,Negative,Negative,Negative,NAD,0,5.4,NA,NA,NA,NA,NA,NA,NA,"WRONG NO
+"
+#301,11,28,2+0,3,Good,NAD,NAD,52,153,No,NA,Yes,14.7,O,Positive,Negative,Negative,Negative,Pus Cells,0,4.8,NA,39,female,SVD,2.8,Alive and well,NA,39
+#302,15,22,0+1,2,Good,NAD,NAD,52,165,No,NA,Yes,12.2,A,Positive,Negative,Negative,Negative,Pus Cells,0,4.5,NA,40,female,SVD,3,Alive and Well,NA,40
+#6,18,34,4+0,5,Good,Normal,NAD,53,155,NO,NA,NA,5.2,B,Positive,Negative,Negative,Positive,NAD,0,5.2,NA,39,female,SVD,3.1,alive and well,NA,39
+#118,13,22,0+0,1,Good,Normal,NAD,53,162,Yes,AL,yes,11.7,A,Negative,Negative,Negative,Negative,NAD,1800,5.1,NA,40,female,SVD,2.8,alive and well,NA,40
+#138,8,21,0+0,1,Good,Normal,NAD,53,167,YES,AL,yes,9.2,O,Positive,Negative,Negative,Negative,NAD,1200,4.4,NA,NA,NA,NA,"ab_mis
+",alive and well,NA,"MISCARRIED
+20/40"
+#245,6,27,2+1,4,Good,Normal,NAD,53,170,No,n/a,No,10.6,A,Positive,Negative,Negative,Negative,Pus Cells,0,5.4,NA,NA,NA,NA,NA,NA,NA,NA
+#279,10,21,3+0,4,Good,Normal,NAD,53,154,No,NA,Yes,13.5,O,Positive,Negative,Negative,Negative,NAD,0,4.4000000000000004,NA,NA,NA,NA,NA,NA,NA,DIVORCED
+#300,9,27,1+0,2,Good,NAD,NAD,53,150,No,NA,Yes,12.8,A,Positive,Negative,Negative,Negative,NAD,0,4.7,NA,40,female,"SVD
+",3.7,Alive and well,NA,40
+#8,32,22,0+0,1,Good,Normal,NAD,54,164,Yes,AL,NA,10.6,AB,Positive,Negative,Negative,Negative,NAD,8000,5.7,NA,40,male,SVD,4,alive and well,NA,40
+#17,17,22,1+0,2,Good,Normal,NAD,54,145,Yes,AL,NA,12.5,B,Positive,Negative,Negative,Negative,Pus Cells,800,5.3,NA,34,male,C/S,3.2,alive and well,NA,34
+#23,13,25,1+0,2,Good,Normal,NAD,54,158,Yes,AL,NA,12,B,Positive,Negative,Negative,Negative,NAD,0,5.3,NA,40,female,SVD,3.8,alive and well,NA,40
+#40,35,18,0+0,1,Good,Normal,NAD,54,150,Yes,AL,NA,11.4,A,Positive,Negative,Negative,Negative,NAD,4000,5.2,NA,NA,NA,NA,"ab_mis
+",NA,NA,MISCARRIAGE
+#48,25,22,1+0,2,Good,Normal,NAD,54,156,Yes,AL,NA,8.9,O,Positive,Negative,Negative,Negative,YEAST CELLS,8000,4.5,NA,40,female,SVD,3.1,alive and well,NA,40
+#72,8,26,1+1,3,Good,Normal,NAD,54,NA,NA,NA,NA,13.7,B,Positive,Negative,Negative,Negative,NAD,2400,4.1,NA,40,female,SVD,3.6,alive and well,NA,40
+#77,27,17,0+0,1,Good,Normal,NAD,54,157,Yes,Artensunate,NA,7.4,B,Positive,Negative,Negative,Negative,T. vaginalis,1200000,5.2,NA,38,female,SVD,2.1,alive and well,NA,38
+#146,6,30,2+0,3,Good,Normal,NAD,54,158,blank,n/a,blank,13.9,O,Positive,Negative,Negative,Negative,Pus Cells,0,5.4,NA,40,male,SVD,3.3,alive and well,4.2,40
+#169,7,22,0+0,1,Good,Normal,NAD,54,155,blank,n/a,blank,14.6,B,Positive,Negative,Negative,Negative,Pus Cells,0,4.9000000000000004,NA,39,male,SVD,3.6,alive and well,NA,39
+#213,12,17,1+0,2,Good,Normal,NAD,54,161,blank,n/a,blank,10.6,O,Positive,Negative,Negative,Negative,NAD,0,4.4,NA,40,male,SVD,3.2,alive and well,NA,40
+#218,7,21,0+0,1,Good,Normal,NAD,54,159,No,n/a,Yes,16.35,O,Positive,Negative,Negative,Negative,NAD,0,4.5,NA,40,female,SVD,2.9,alive and well,NA,40
+#261,13,21,0+0,1,Good,Normal,NAD,54,165,No,n/a,Yes,13.1,O,Positive,Negative,Negative,Negative,Pus Cells,0,4.5,NA,40,female,SVD,3.2,alive and well,NA,40
+#287,12,24,1+0,2,Good,Normal,NAD,54,158,Yes,Not Treated,Yes,12,O,Positive,Negative,Negative,Negative,NAD,0,4.4000000000000004,NA,38,male,SVD,3.6,alive and well,NA,38
+#27,20,26,2+0,3,Good,Normal,NAD,55,147,Yes,AL,NA,11.7,B,Positive,Negative,Negative,Negative,NAD,800,4.1,NA,40,female,SVD,3.2,alive and well,NA,40
+#41,26,25,2+1,4,Good,Normal,NAD,55,161,Yes,AL,NA,10.6,O,Positive,Negative,Negative,Negative,Pus Cells,16000,4.6,NA,40,NA,SVD,40,alive and well,NA,40
+#65,22,20,0+0,1,Good,Normal,NAD,55,152,Yes,AL,NA,10.2,B,Positive,Negative,Negative,Negative,Pus Cells,8000,4.7,NA,40,female,SVD,2.8,alive and well,NA,40
+#66,27,20,0+0,1,Good,Normal,NAD,55,157,Yes,AL,NA,7.7,O,Positive,Negative,Negative,Negative,NAD,200000,5.2,NA,41,male,SVD,3.5,alive and well,NA,41
+#68,26,29,1+0,2,Good,Normal,NAD,55,150,Yes,AL,NA,13,O,Positive,Negative,Negative,Negative,NAD,8000,4.7,NA,41,female,C/S,4.2,admitted in paeds due to congenital anomalies,NA,41
+#70,18,28,1+0,2,Good,Normal,NAD,55,158,NA,NA,NA,12.4,O,Positive,Negative,Negative,Positive,NAD,0,4.1,NA,40,male,SVD,3.5,alive and well,NA,40
+#136,9,27,1+0,2,Good,Normal,NAD,55,164,YES,AL,yes,14.7,O,Positive,Negative,Negative,Negative,Pus Cells,800,4.2,NA,38,female,SVD,3.5,alive and well,NA,38
+#157,12,23,1+0,2,Good,Normal,NAD,55,155,blank,n/a,blank,13.7,O,Positive,Negative,Negative,Negative,Pus Cells,0,4.6,NA,40,female,SVD,3.3,alive and well,4.2,40
+#221,14,24,3+0,4,Good,Normal,NAD,55,156,No,n/a,Yes,8.6,O,Positive,Negative,Negative,Negative,NAD,0,4.5,NA,39,male,SVD,3.4,alive and well,NA,39
+#227,15,29,4+0,5,Good,Normal,NAD,55,165.5,No,n/a,Yes,10.1,O,Positive,Negative,Negative,Positive,NAD,0,5.0999999999999996,NA,40,female,SVD,3,alive and well,NA,40
+#244,9,22,0+1,2,Good,Normal,NAD,55,160,No,n/a,Yes,12.4,O,Positive,Negative,Negative,Negative,NAD,0,4.4000000000000004,NA,40,male,SVD,3.4,alive and well,NA,40
+#258,15,20,2+0,3,Good,Normal,NAD,55,156,No,n/a,Yes,13.2,O,Positive,Negative,Negative,Negative,Pus Cells,0,4.5,NA,39,female,SVD,3.2,alive and well,NA,39
+#267,4,25,0+1,2,Good,Normal,NAD,55,157,No,n/a,Yes,13.3,O,Positive,Negative,Negative,Negative,NAD,0,4.4000000000000004,NA,39,male,SVD,3.4,alive and well,NA,39
+#293,7,21,1+0,2,Good,Normal,NAD,55,168,No,NA,Yes,14.1,A,Positive,Negative,Negative,Negative,Pus Cells,0,4.5,NA,21,NA,NA,"ab_mis
+",NA,NA,21
+#212,13,27,2+0,3,Good,Normal,NAD,55.5,155,blank,n/a,blank,14.3,A,Positive,Negative,Negative,Negative,NAD,0,5.4,NA,40,female,SVD,3.1,alive and well,NA,40
+#25,24,41,1+0,2,Good,Normal,NAD,56,155,NO,NA,NA,11.8,B,Positive,Positive,Negative,Positive,NAD,0,3.3,NA,40,female,SVD,3.8,alive and well,NA,40
+#80,25,24,1+0,2,Good,Normal,NAD,56,167,Yes,AL,NA,13,B,Positive,Negative,Negative,Negative,NAD,800,4.7,NA,39,female,C/S,3.1,alive and well,NA,39
+#100,6,23,1+0,2,Good,Normal,NAD,56,165,Yes,AL,NA,12,O,Positive,Negative,Negative,Negative,Pus Cells,1200,5.1,NA,39,female,SVD,3.1,alive and well,NA,39
+#101,7,23,1+1,3,Good,Normal,NAD,56,152,Yes,AL,NA,13.9,A,Positive,Negative,Negative,Negative,NAD,1600,5.2,NA,39,female,SVD,2.9,alive malaria in one month,NA,39
+#143,11,30,2+0,3,Good,Normal,NAD,56,164,blank,n/a,blank,9.1,B,Positive,Negative,Negative,Negative,Pus Cells,0,5,NA,40,female,SVD,3.6,alive and well,4.4,40
+#208,14,24,0+0,1,Good,Normal,NAD,56,168,blank,n/a,blank,11.3,A,Positive,Negative,Negative,Negative,Pus Cells,0,4.8,NA,39,male,SVD,3,alive malaria at 4 months,NA,39
+#239,14,26,1+0,2,Good,Normal,NAD,56,157,Yes,blank,Yes,12.7,O,Positive,Negative,Negative,Negative,NAD,0,4.8,NA,40,male,SVD,3.4,alive and well,NA,40
+#272,11,22,0+0,1,Good,Normal,NAD,56,155,Yes,AL,Yes,14.1,B,Positive,Negative,Negative,Negative,Pus Cells,800,4.5,NA,NA,NA,NA,"ab_mis
+",NA,NA,"ABORTION
+"
+#273,12,20,0+0,1,Good,Normal,NAD,56,155,No,n/a,No,13.9,O,Positive,Negative,Negative,Negative,Pus Cells,0,5,NA,38,female,SVD,3.2,alive and well,NA,38
+#280,8,39,2+2,5,Good,Normal,NAD,56,160,Yes,Arthemeter lumefantrine,Yes,10.7,O,Positive,Negative,Negative,Negative,NAD,800,4.9000000000000004,NA,40,female,SVD,3.4,alive and well,NA,40
+#285,13,25,1+1,3,Good,Normal,NAD,56,167,No,NA,Yes,13.4,A,Positive,Negative,Negative,Negative,Pus Cells,0,6,NA,40,female,SVD,2.8,alive and well,NA,40
+#28,24,18,0+0,1,Good,Normal,NAD,57,148,NA,NA,NA,9.8,A,Positive,Negative,Negative,Negative,Pus Cells,2400,5.3,NA,39,male,SVD,3.5,alive and well,NA,39
+#86,24,25,2+0,3,Good,Normal,NAD,57,156,NA,NA,NA,9.6,O,Positive,Negative,Negative,Positive,NAD,0,5.5,NA,40,female,SVD,3.8,alive and well,NA,40
+#104,25,19,0+0,1,Good,Normal,NAD,57,170,Yes,AL,NA,8.4,O,Positive,Negative,Negative,Negative,Pus Cells,2800,6.5,NA,38,female,SVD,3,Alive and well,NA,38
+#158,15,35,4+0,5,Good,Normal,NAD,57,153,blank,n/a,blank,13.4,B,Positive,Negative,Negative,Negative,Pus Cells,0,5,NA,39,female,SVD,3.2,alive and well,NA,39
+#172,14,25,0+0,1,Good,Normal,NAD,57,171,blank,n/a,blank,14.3,B,Positive,Negative,Negative,Negative,NAD,0,4.3,NA,39,female,SVD,3.2,alive and well,NA,39
+#281,11,23,1+0,2,Good,Normal,NAD,57,156,No,NA,Yes,13.3,B,Positive,Negative,Negative,Negative,NAD,0,4.5,NA,40,female,SVD,3.2,alive and well,NA,40
+#3,9,25,1+0,2,Good,Normal,NAD,58,156,NO,NA,NA,12.5,A,Positive,Negative,Negative,Positive,NAD,0,5.6,NA,40,female,SVD,3.1,alive and well,NA,40
+#9,19,27,4+0,5,Good,Normal,NAD,58,161,NO,NA,NA,13.9,B,Positive,Negative,Negative,Positive,Pus Cells,0,5.3,NA,NA,NA,NA,"ab_mis
+",NA,NA,MISCARRIAGE
+#42,26,26,1+1,3,Good,Normal,NAD,58,159,Yes,AL,NA,10.8,A,Positive,Negative,Negative,Negative,Pus Cells,8000,6.2,NA,40,male,SVD,3.8,alive and well,NA,40
+#55,21,24,2+0,3,Good,Normal,NAD,58,151,Yes,AL,NA,10.9,O,Positive,Negative,Negative,Negative,NAD,8000,5,NA,40,female,SVD,2.8,alive and well,NA,40
+#61,17,44,4+0,5,Good,Normal,NAD,58,160,NA,NA,NA,8.1,A,Positive,Negative,Negative,Positive,Pus Cells,0,8.1,NA,40,female,SVD,3,alive and well,NA,40
+#85,6,25,0+0,1,Good,Normal,NAD,58,155,NA,NA,NA,14.7,A,Positive,Negative,Negative,Negative,NAD,800,4.9,NA,38,female,SVD,4,alive and well,NA,38
+#90,15,25,0+1,2,Good,Normal,NAD,58,155,NA,NA,NA,11.1,O,Positive,Negative,Negative,Positive,Pus Cells,0,4.3,NA,38,female,SVD,3.1,alive and well,NA,38
+#96,24,25,1+0,2,Good,Normal,NAD,58,152,Yes,Artesunate,NA,12.1,O,Positive,Negative,Negative,Negative,NAD,1600000,6.4,NA,40,female,SVD,3.8,alive and well,NA,40
+#188,9,32,2+0,3,Good,Normal,NAD,58,159,Yes,Artensunate,blank,12.9,A,Positive,Negative,Negative,Negative,NAD,800,4.9000000000000004,NA,41,male,C/S,3.8,alive and well,NA,41
+#195,15,20,0+0,1,Good,Normal,NAD,58,164,blank,n/a,blank,12.8,B,Positive,Negative,Negative,Negative,NAD,0,5.4,NA,39,female,SVD,2.9,alive and well,NA,39
+#241,4,21,0+0,1,Good,Normal,NAD,58,153,No,n/a,Yes,14.7,O,Negative,Negative,Negative,Negative,NAD,0,4.7,NA,NA,NA,NA,"ab_mis
+",NA,NA,ABORTION-Blighted Ovum
+#247,7,22,0+1,2,Good,Normal,NAD,58,155,Yes,blank,No,14.1,B,Negative,Negative,Negative,Negative,NAD,0,4.8,NA,40,male,SVD,3,alive and well,NA,40
+#286,18,28,2+0,3,Good,Normal,NAD,58,166,No,NA,Yes,12,O,Positive,Negative,Negative,Negative,NAD,0,5,NA,38,female,SVD,3.8,alive and well,NA,38
+#51,20,20,0+0,1,Good,Normal,NAD,59,149,NA,NA,NA,13.1,O,Positive,Negative,Negative,Positive,NAD,0,5.8,NA,39,female,SVD,3.5,alive and well,NA,39
+#94,16,34,4+0,5,Good,Normal,NAD,59,158,Yes,Artesunate,NA,13,B,Positive,Negative,Negative,Positive,NAD,0,6.2,NA,40,female,SVD,3.2,alive and well,NA,40
+#145,14,19,0+0,1,Good,Normal,NAD,59,165,blank,n/a,blank,13.6,A,Positive,Negative,Negative,Negative,Pus Cells,0,4.2,NA,39,female,SVD,3.4,alive and well,4.3,39
+#151,11,35,1+0,2,Good,Normal,NAD,59,164,blank,n/a,blank,14.7,B,Positive,Negative,Negative,Negative,Pus Cells,0,5.2,NA,NA,NA,NA,NA,NA,4.6,WRONG NO
+#178,10,26,2+0,3,Good,Normal,NAD,59,157,blank,n/a,blank,15,B,Positive,Negative,Negative,Negative,Pus Cells,0,5,NA,38,female,SVD,2,alive malaria at 2 months,NA,38
+#189,15,29,1+0,2,Good,Normal,NAD,59,166,blank,n/a,blank,12.3,O,Positive,Negative,Negative,Negative,Pus Cells,0,5.4,NA,40,female,SVD,3.7,alive and well,NA,40
+#192,9,36,2+0,3,Good,Normal,NAD,59,172,blank,n/a,blank,12.8,O,Positive,Negative,Negative,Negative,Pus Cells,0,5.0999999999999996,NA,40,female,SVD,3.4,alive and well,NA,40
+#216,10,33,3+0,4,Good,Normal,NAD,59,162,blank,n/a,blank,15.9,A,Positive,Negative,Negative,Negative,NAD,0,5.1,NA,40,male,SVD,3.2,alive and well,NA,40
+#220,10,25,1+0,2,Good,Normal,NAD,59,165,No,n/a,Yes,15.2,O,Positive,Negative,Negative,Negative,NAD,0,4.5999999999999996,NA,40,male,SVD,3.2,alive and well,NA,40
+#225,12,20,0+1,1,Good,Normal,NAD,59,156,No,n/a,Yes,9.8,O,Positive,Negative,Negative,Negative,NAD,0,4.4000000000000004,NA,40,male,SVD,3,alive and well,NA,40
+#268,3,40,4+0,5,Good,Normal,NAD,59,164,No,n/a,Yes,11.95,O,Positive,Negative,Negative,Negative,NAD,0,5.5,NA,NA,NA,NA,"ab_mis
+",Fresh still birth,NA,"MISCARRIED
+30 weeks
+"
+#231,10,28,0+1,2,Good,Normal,NAD,59.5,167,No,n/a,Yes,16.2,O,Positive,Negative,Negative,Negative,Pus Cells,0,4.5999999999999996,NA,39,male,SVD,2.9,alive and well,NA,39
+#39,30,25,0+2,3,Good,Normal,NAD,60,162,No,No treatment was given,NA,10.6,A,Positive,Negative,Negative,Positive,Pus Cells,0,5.6,NA,40,female,SVD,3,alive and well,NA,40
+#43,24,35,4+0,5,Good,Normal,NAD,60,152,Yes,Artesunate,NA,10.9,B,Positive,Negative,Negative,Negative,Pus Cells,80000,3.8,NA,40,female,SVD,2.8,alive and well,NA,40
+#81,16,26,2+0,3,Good,Normal,NAD,60,168,NA,NA,NA,10,O,Positive,Negative,Negative,Positive,Pus Cells,0,4.3,NA,40,female,SVD,2.8,alive and well,NA,40
+#116,10,29,2+0,3,Fair,Normal,NAD,60,161,Yes,Artensunate,NA,13.6,B,Positive,Negative,Negative,Negative,Pus Cells,20000,4.7,NA,41,male,SVD,3.4,alive and well,NA,41
+#160,13,19,0+0,1,Good,Normal,NAD,60,150,blank,n/a,blank,13.2,O,Positive,Negative,Negative,Negative,Blank,0,4.1,NA,39,male,SVD,2.9,alive and well,NA,39
+#202,15,31,2+1,4,Good,Normal,NAD,60,160,blank,n/a,blank,14.1,B,Positive,Negative,Negative,Negative,Pus Cells,0,5.4,NA,39,female,SVD,3.1,alive and well,NA,39
+#207,16,25,1+1,3,Good,Normal,NAD,60,165,blank,n/a,blank,12.5,B,Positive,Negative,Negative,Negative,Pus Cells,0,5.5,NA,40,male,SVD,3.1,alive and well,NA,40
+#229,16,23,0+0,1,Good,Normal,NAD,60,162,No,n/a,Yes,14,O,Positive,Negative,Negative,Negative,NAD,0,4.5,NA,40,female,SVD,3.2,alive and well,NA,40
+#230,16,31,2+1,4,Good,Normal,NAD,60,156,No,n/a,Yes,15.4,O,Positive,Negative,Negative,Negative,NAD,0,4.5999999999999996,NA,40,male,SVD,3.5,alive and well,NA,40
+#234,16,22,0+0,1,Good,Normal,NAD,60,165,No,n/a,No,13.6,O,Positive,Negative,Negative,Negative,Epithelial Cells,0,4.3,NA,37,male,SVD,1.8,died due to severe malaria,NA,37
+#274,15,27,3+0,4,Good,Normal,NAD,60,164,Yes,Artemether Lumefantrine,Yes,14.5,O,Negative,Negative,Negative,Negative,NAD,400,4.4000000000000004,NA,39,female,SVD,3.8,alive and well,NA,39
+#191,17,22,2+0,3,Good,Normal,NAD,60.5,168,blank,n/a,blank,12.9,A,Positive,Negative,Negative,Negative,Pus Cells,0,4.5999999999999996,NA,40,female,SVD,3.1,alive and well,NA,40
+#13,8,21,1+0,2,Good,Normal,NAD,61,154,Yes,Quinine,NA,14.8,O,Positive,Negative,Negative,Negative,Pus Cells,0,5.4,NA,39,male,SVD,3.2,alive and well,NA,39
+#22,7,24,1+0,2,Good,Normal,NAD,61,163,Yes,AL,NA,12.5,O,Positive,Negative,Negative,Negative,Pus Cells,1600,6.1,NA,40,female,SVD,2.2999999999999998,alive and well,NA,40
+#69,20,18,0+0,1,Good,Normal,NAD,61,166,Yes,AL,NA,11.1,B,Positive,Negative,Negative,Negative,Pus Cells,4800,4.8,NA,NA,NA,NA,"ab_mis
+",NA,NA,MISCARRIED
+#107,28,19,0+0,1,Good,Normal,NAD,61,142,Yes,AL,NA,11.9,O,Positive,Negative,Negative,Negative,NAD,0,5.5,NA,38,female,SVD,3.5,alive and well,NA,38
+#120,26,19,0+0,1,Good,Normal,NAD,61,NA,YES,YES,NA,10.7,B,Positive,Negative,Negative,Negative,Pus Cells,10580,4.5,NA,38,male,SVD,3,alive and well,NA,38
+#141,16,25,1+0,2,Good,Normal,NAD,61,161,blank,n/a,blank,15.4,A,Positive,Negative,Negative,Negative,Pus Cells,0,4.9,NA,39,female,SVD,3.2,NA,5,39
+#144,10,20,0+0,1,Good,Normal,NAD,61,150,blank,n/a,blank,13.4,B,Positive,Negative,Negative,Negative,Pus Cells,0,4.6,NA,39,male,SVD,3.4,alive and well,4.4,39
+#154,12,22,0+1,2,Good,Normal,NAD,61,156,blank,n/a,blank,13.8,B,Positive,Negative,Negative,Negative,NAD,0,6.9,NA,40,female,SVD,2.8,alive and well,4.2,40
+#165,10,24,2+0,3,Good,Normal,NAD,61,151,blank,n/a,blank,9.3,O,Positive,Negative,Negative,Negative,NAD,0,6.1,NA,39,female,SVD,3,alive and well,NA,39
+#185,13,19,0+0,1,Good,Normal,NAD,61,169,blank,n/a,blank,12.6,B,Positive,Negative,Negative,Negative,NAD,0,6.4,NA,40,male,SVD,3.2,alive and well,NA,40
+#235,10,26,0+1,2,Good,Normal,NAD,61,167,No,n/a,Yes,14,B,Positive,Negative,Negative,Negative,Pus Cells,0,4.9000000000000004,NA,40,female,SVD,2.5,alive and well,NA,40
+#269,16,19,0+0,1,Good,Normal,NAD,61,152,No,n/a,Yes,10.7,O,Positive,Negative,Negative,Negative,NAD,0,4.5,NA,39,female,SVD,3.4,alive and well,NA,39
+#276,8,21,0+0,1,Good,Normal,NAD,61,Blank,No,NA,Yes,14.1,AB,Positive,Negative,Negative,Negative,NAD,0,5.2,NA,40,female,SVD,3.4,alive and well,NA,40
+#299,14,34,1+0,2,Good,117/75,NAD,61,165,No,NA,Yes,11.35,O,Positive,Negative,Negative,Positive,Pus Cells,0,4.7,NA,40,"female
+",SVD,3.5,alive and well,NA,40
+#31,14,22,0+0,1,Good,Normal,NAD,62,157,Yes,AL,NA,9.9,A,Positive,Negative,Negative,Negative,Pus Cells,800,5.3,NA,NA,female,SVD,3.5,alive and well,NA,NA
+#36,26,17,0+0,1,Good,Normal,NAD,62,152,Yes,AL,NA,8.2,O,Positive,Negative,Negative,Negative,NAD,2400,5.5,NA,40,male,SVD,3.2,alive and well,NA,40
+#46,22,26,2+0,3,Good,Normal,NAD,62,165,Yes,AL,NA,8,A,Positive,Negative,Negative,Negative,Pus Cells,4800,4.5,NA,38,male,SVD,2.8,alive and well,NA,38
+#115,28,30,1+3,5,Good,Normal,NAD,62,166,Yes,AL,NA,14.9,A,Positive,Negative,Negative,Negative,Proteins,12000,4.5,NA,41,male,SVD,3,alive and well,NA,41
+#150,11,22,0+0,1,Good,Normal,NAD,62,153,blank,n/a,blank,17.2,A,Positive,Negative,Negative,Negative,Pus Cells,0,4.2,NA,40,male,C/S,3.8,alive and well,NA,40
+#209,16,23,0+1,2,Good,Normal,NAD,62,153,blank,n/a,blank,12.2,O,Positive,Negative,Negative,Negative,Pus Cells,0,4.4000000000000004,NA,39,male,SVD,3.2,alive and well,NA,39
+#250,12,22,0+0,1,Good,Normal,NAD,62,168,No,n/a,Yes,11.5,B,Positive,Negative,Negative,Negative,NAD,0,4.9000000000000004,NA,39,male,SVD,3,alive and well,NA,39
+#259,14,36,3+0,4,Good,Normal,NAD,62,167,No,n/a,Yes,12.8,B,Positive,Negative,Negative,Negative,NAD,0,6.1,NA,39,"female
+male",C/S,"3.0
+2.0",alive and well,NA,39
+#277,14,37,1+0,14,Good,Normal,NAD,62,154,No,-,-,14,AB,Positive,Negative,Negative,Negative,NAD,0,5.1,NA,40,male,C/S,3.4,alive and well,NA,40
+#47,25,21,1+0,2,Good,Normal,NAD,63,168,Yes,AL,NA,10.4,O,Positive,Negative,Negative,Negative,NAD,4800,4.5,NA,40,female,SVD,3.2,alive and well,NA,40
+#50,17,30,2+0,3,Good,Normal,NAD,63,154,Yes,AL,NA,14.1,B,Positive,Negative,Negative,Negative,NAD,2800,4.6,NA,40,female,SVD,2.5,alive and well,NA,40
+#166,12,32,1+0,2,Good,Normal,NAD,63,163,blank,n/a,blank,13.6,AB,Negative,Negative,Negative,Negative,NAD,0,5.1,NA,40,male,SVD,2.9,alive and well,NA,40
+#183,10,24,0+0,1,Good,Normal,NAD,63,166,blank,n/a,blank,13.7,O,Positive,Negative,Negative,Negative,NAD,0,4.5999999999999996,NA,40,"male
+",C/S,3.3,alive and well,NA,40
+#193,15,31,2+0,3,Good,Normal,NAD,63,169,blank,n/a,blank,12,O,Positive,Negative,Negative,Negative,Pus Cells,0,5,NA,40,female,SVD,3.2,alive and well,NA,40
+#236,15,21,0+3,3,Good,Normal,NAD,63,170,No,n/a,Yes,12.9,A,Positive,Negative,Negative,Negative,Red Blood Cells,0,4.7,NA,NA,NA,NA,"ab_mis
+",NA,NA,ABORTION-24/40weeks
+#29,16,32,3+0,4,Good,Normal,NAD,64,149,Yes,Artesunate,NA,15.2,O,Positive,Negative,Negative,Negative,NAD,800,5.2,NA,41,male,SVD,3.5,alive and well,NA,41
+#30,16,16,0+0,1,Good,Normal,NAD,64,156,Yes,AL,NA,10.1,O,Positive,Negative,Negative,Negative,NAD,800,5.4,NA,NA,NA,NA,NA,NA,NA,WRONG NO
+#32,24,23,1+2,3,Good,Normal,NAD,64,162,Yes,AL,NA,12.4,B,Positive,Negative,Negative,Negative,NAD,800,6.2,NA,3.5,male,Fresh still birth,NA,NA,NA,3.5
+#38,30,18,0+0,1,Good,Normal,NAD,64,176,Yes,AL,NA,10.5,A,Positive,Negative,Negative,Negative,YEAST CELLS,20000,5.5,NA,35,male,SVD,3.5,alive and well,NA,35
+#58,7,30,2+0,3,Good,Normal,NAD,64,158,Yes,AL,NA,12.7,B,Positive,Negative,Negative,Negative,NAD,2400,5,NA,40,female,SVD,3.3,alive and well,NA,40
+#71,20,24,1+1,3,Good,Normal,NAD,64,149,NA,NA,NA,12.9,A,Positive,Negative,Negative,Positive,NAD,0,4.0,NA,39,male,SVD,3.5,alive and well,NA,39
+#93,27,37,4+0,5,Good,Normal,NAD,64,156,NA,NA,NA,11.1,A,Positive,Negative,Negative,Positive,NAD,0,4.6,NA,38,female,SVD,2.9,alive and well,NA,38
+#99,19,25,2+0,3,Good,Normal,COUGH,64,161,Yes,AL,NA,13,O,Positive,Negative,Negative,Negative,NAD,800,4.1,NA,NA,NA,NA,"ab_mis
+",NA,NA,MISCARRIED
+#103,21,20,1+0,2,Good,Normal,DIFFICULTY IN BREATHING,64,161,Yes,AL,NA,12.4,O,Positive,Negative,Negative,Negative,NAD,4000,4.3,NA,39,male,SVD,3.2,alive and well,NA,39
+#263,12,20,0+0,1,Good,Normal,NAD,64,164,No,n/a,Yes,11.4,O,Positive,Negative,Negative,Negative,NAD,0,5.4,NA,NA,NA,NA,NA,NA,NA,WRONG NO
+#2,22,33,2+0,3,Good,Normal,NAD,65,150,Yes,AL,NA,10.2,O,Positive,Negative,Negative,Negative,Pus Cells,400,6.0,NA,40,male,SVD,2.5,alive and well,NA,40
+#37,26,19,0+1,2,Good,Normal,NAD,65,162,Yes,AL,NA,8.2,O,Positive,Negative,Negative,Negative,NAD,20000,4.5,NA,40,male,SVD,3.1,Alive and well,NA,40
+#62,11,40,3+0,4,Good,Normal,NAD,65,156,NA,NA,NA,10.7,B,Positive,Negative,Negative,Positive,NAD,0,4.3,NA,33,female,C/S,2.9,alive and well,NA,33
+#111,28,38,2+0,3,Good,Normal,NAD,65,158,Yes,AL,NA,15.7,A,Positive,Negative,Negative,Negative,NAD,800,4.9,NA,41,male,SVD,3.5,alive and well,NA,41
+#112,31,25,1+1,3,Good,Normal,NAD,65,152,Yes,AL,NA,8.8,B,Positive,Negative,Negative,Negative,Pus Cells,4000,5.3,NA,40,female,SVD,3.1,Alive and well,NA,40
+#113,7,32,3+1,5,Good,Normal,NAD,65,154,Yes,AL,NA,12.9,A,Positive,Negative,Negative,Positive,Pus Cells,1200,5.1,NA,40,male,SVD,2.2999999999999998,alive and well,NA,40
+#156,14,30,2+0,3,Good,Normal,NAD,65,165,blank,n/a,blank,11.6,A,Positive,Negative,Negative,Negative,NAD,0,6.9,NA,40,male,SVD,3,alive and well,4.3,40
+#217,16,36,2+0,3,Good,Normal,NAD,65,168,blank,n/a,blank,12.3,O,Positive,Negative,Negative,Negative,Pus Cells,0,5.2,NA,39,female,SVD,3.2,alive and well,NA,39
+#246,13,23,1+0,2,Good,Normal,NAD,65,175,No,n/a,Yes,15.8,O,Positive,Negative,Negative,Negative,NAD,0,5.8,NA,40,female,SVD,3,alive and well,NA,40
+#275,13,37,2+0,3,Good,Normal,NAD,65,165,Yes,AL,Yes,12.1,O,Positive,Negative,Negative,Negative,NAD,0,4.3,NA,38,male,SVD,3.5,alive and well,NA,38
+#249,11,24,2+0,3,Good,Normal,NAD,65.5,166,No,n/a,Yes,12.2,B,Positive,Negative,Negative,Positive,NAD,0,4.7,NA,39,female,SVD,2.8,alive and well,NA,39
+#75,21,27,2+0,3,Good,Normal,NAD,66,155,NA,NA,NA,13.7,O,Positive,Negative,Negative,Negative,Pus Cells,8000,9.0,NA,39,female,SVD,2.4,alive malaria at 5 months,NA,39
+#92,16,33,2+0,3,Good,Normal,NAD,66,152,NA,NA,NA,15.8,A,Positive,Negative,Negative,Positive,NAD,0,4.6,NA,40,male,C/S,3.2,alive and well,NA,40
+#114,16,27,0+0,1,Good,Normal,NAD,66,164,Yes,AL,NA,903,O,Positive,Negative,Negative,Negative,Pus Cells,100000,4.7,NA,41,male,SVD,2.5,alive and well,NA,41
+#122,14,39,5+0,6,Good,Normal,NAD,66,158,YES,AL,NA,13.5,A,Positive,Negative,Negative,Negative,NAD,1200,5.1,NA,NA,NA,NA,"ab_mis
+",NA,NA,ABORTION-20/40weeks
+#142,3,19,0+0,1,Good,Normal,NAD,66,161,blank,blank,blank,12.1,AB,Positive,Negative,Negative,Negative,NAD,0,4.8,NA,40,male,FSB,4,NA,4.6,40
+#153,14,25,1+1,3,Good,Normal,NAD,66,169,blank,n/a,blank,14,A,Positive,Negative,Negative,Negative,Epithelial Cells,0,4.7,NA,39,female,SVD,3,alive and well,3.8,39
+#194,13,32,2+0,3,Good,Normal,NAD,66,167,blank,n/a,blank,14.4,A,Positive,Negative,Negative,Negative,NAD,0,4.5,NA,40,male,SVD,3,alive and well,NA,40
+#224,10,33,2+0,3,Good,Normal,NAD,66,168,No,n/a,No,15,O,Positive,Negative,Negative,Negative,NAD,0,4.4000000000000004,NA,40,female,SVD,2.8,alive and well,NA,40
+#238,14,20,1+0,2,Good,Normal,NAD,66,160,No,n/a,Yes,14.1,A,Positive,Negative,Negative,Negative,NAD,0,5.7,NA,39,male,SVD,3,alive had malaria for 2 months,NA,39
+#12,32,19,1+0,2,Good,Normal,NAD,67,159,Yes,AL,NA,11.5,A,Positive,Negative,Negative,Negative,YEAST CELLS,800,5.8,NA,38,male,SVD,4.2,alive and well,NA,38
+#45,21,20,2+0,3,Good,Normal,NAD,67,158,Yes,AL,NA,13.7,B,Positive,Negative,Negative,Negative,Pus Cells,400,4.9,NA,40,male,SVD,3.2,alive and well,NA,40
+#74,30,23,1+0,2,Good,Normal,NAD,67,158,Yes,AL,NA,13.3,B,Positive,Negative,Negative,Negative,NAD,800,5.3,NA,40,female,SVD,3.5,alive and well,NA,40
+#91,21,17,0+0,1,Good,Normal,NAD,67,155,Yes,AL,NA,11.7,O,Positive,Negative,Negative,Negative,NAD,8000,4.6,NA,40,male,SVD,3.2,alive and well,NA,40
+#167,26,30,0+0,1,Good,Normal,NAD,67,174,Yes,AL,blank,13,A,Positive,Negative,Negative,Negative,NAD,800,4.5999999999999996,NA,40,female,SVD,4.5,alive and well,NA,40
+#179,14,23,0+0,1,Good,Normal,NAD,67,168,blank,n/a,blank,13.2,A,Positive,Negative,Negative,Negative,NAD,0,4,NA,40,male,SVD,3,alive and well,NA,40
+#187,13,24,0+0,1,Good,Normal,NAD,67,165,blank,n/a,blank,12.9,B,Positive,Negative,Negative,Negative,NAD,0,4.4000000000000004,NA,40,female,SVD,3.8,alive and well,NA,40
+#44,15,19,1+0,2,Good,Normal,NAD,68,154,Yes,AL,NA,8.8,O,Positive,Negative,Negative,Negative,Pus Cells,8000,4.9,NA,40,female,SVD,3.5,alive and well,NA,40
+#124,10,23,1+1,3,Good,Normal,NAD,68,159,Yes,AL,NA,12.9,O,Positive,Negative,Negative,Negative,NAD,2400,5.2,NA,40,female,SVD,3,alive and well,NA,40
+#181,11,26,1+0,2,Good,Normal,NAD,68,164,blank,n/a,blank,16.8,B,Positive,Negative,Negative,Negative,Pus Cells,0,4.5,NA,40,female,SVD,3,alive and well,NA,40
+#214,8,27,2+0,3,Good,Normal,NAD,68,176,blank,n/a,blank,16.05,A,Positive,Negative,Negative,Negative,NAD,0,5.0,NA,NA,NA,NA,NA,NA,NA,WRONG NO
+#222,14,27,2+0,3,Good,Normal,NAD,68,168,No,n/a,Yes,10.6,O,Positive,Negative,Negative,Negative,NAD,0,4.5,NA,40,female,SVD,3,alive and well,NA,40
+#248,5,24,0+0,1,Good,Normal,NAD,68,165,No,n/a,Yes,14.1,O,Positive,Negative,Negative,Negative,NAD,0,4.4000000000000004,NA,40,male,SVD,3,alive had malaria for 4 months,NA,40
+#278,9,39,2+0,3,Good,Normal,NAD,68,156,No,NA,Yes,12.8,O,Positive,Negative,Negative,Negative,NAD,0,5.8,NA,NA,NA,NA,NA,NA,NA,"WRONG NO
+"
+#296,13,32,1+1,3,Good,Normal,NAD,68,163,Yes,Artemether Lumefantrine,Yes,13.5,O,Positive,Negative,Negative,Negative,NAD,0,4.7,NA,39,female,C/S,2.9,alive and well,NA,39
+#147,12,24,2+1,4,Good,Normal,NAD,69,166,blank,n/a,blank,13,O,Positive,Negative,Negative,Negative,NAD,0,3.8,NA,40,male,SVD,3.2,alive and well,4,40
+#284,15,33,4+0,5,Good,Normal,NAD,69,170,No,NA,No,12.7,B,Positive,Negative,Negative,Negative,NAD,0,6,NA,40,male,SVD,3,alive and well,NA,40
+#298,7,26,1+0,2,Good,Normal,NAD,69,Blank,No,NA,Yes,13.1,O,Positive,Negative,Negative,Negative,NAD,0,6.1,NA,40,female,SVD,3.5,alive and well,NA,40
+#64,35,25,1+0,2,Good,Normal,NAD,70,167,NA,NA,NA,12.2,O,Positive,Negative,Negative,Positive,Pus Cells,0,4.8,NA,NA,NA,NA,NA,NA,NA,"WRONG NO
+"
+#105,11,22,1+0,2,Good,Normal,NAD,70,154,Yes,AL,NA,11.9,A,Positive,Negative,Negative,Negative,YEAST CELLS,0,4.6,NA,NA,NA,NA,NA,NA,NA,UNRECOGNIZED NO
+#110,16,28,3+2,6,Good,Normal,NAD,70,162,Yes,AL,NA,12.4,O,Positive,Negative,Negative,Negative,NAD,400,4.8,NA,41,male,C/S,3.4,alive and well,NA,41
+#170,9,29,1+0,2,Good,Normal,NAD,70,169,blank,n/a,blank,15.3,A,Positive,Negative,Negative,Negative,Pus Cells,0,5.3,NA,40,female,C/S,3.8,alive and well,NA,40
+#204,12,29,1+0,2,Good,Normal,NAD,70,157,blank,n/a,blank,15.1,AB,Positive,Negative,Negative,Negative,NAD,0,6,NA,39,female,SVD,3.5,alive and well,NA,39
+#242,14,26,1+0,2,Good,Normal,NAD,70,162,No,n/a,Yes,13.8,B,Negative,Negative,Negative,Negative,NAD,0,10.1,NA,40,female,SVD,4.2,alive and well,NA,40
+#255,14,21,0+0,1,Good,Normal,NAD,70,158,No,n/a,Yes,14.6,A,Positive,Negative,Negative,Negative,NAD,0,5.6,NA,38,male,SVD,2.5,alive and well,NA,38
+#256,14,26,0+0,1,Good,Normal,NAD,70,169,No,n/a,Yes,12.9,O,Positive,Negative,Negative,Negative,Pus Cells,0,4.5,NA,39,male,SVD,3.1,alive and well,NA,39
+#266,12,24,1+0,2,Good,Normal,NAD,70,163,Yes,Not Treated,Yes,13.5,A,Positive,Negative,Negative,Negative,NAD,0,4.7,NA,39,female,SVD,3.2,alive and well,NA,39
+#271,5,36,2+0,4,Good,Normal,NAD,70,166,No,n/a,Yes,14.6,B,Positive,Negative,Negative,Negative,NAD,0,4.5,NA,39,male,SVD,3.4,alive and well,NA,39
+#1,20,29,1+0,2,Good,Normal,NAD,71,162,NO,NA,NA,12.5,O,Positive,Negative,Negative,Positive,NAD,0,5.6,NA,40,male,SVD,3,alive and well,NA,40
+#155,11,30,2+0,3,Good,Normal,NAD,71,174,blank,n/a,blank,14.5,A,Positive,Negative,Negative,Negative,NAD,0,5.2,NA,39,female,SVD,3.2,alive and well,4,39
+#211,16,30,2+0,3,Good,Normal,NAD,71,170,No,n/a,Yes,10.3,B,Positive,Negative,Negative,Negative,NAD,0,4.8,NA,40,female,SVD,2.8,alive and well,NA,40
+#283,13,35,3+1,4,Good,Normal,NAD,71,163,No,NA,Yes,13.9,A,Positive,Negative,Negative,Negative,NAD,0,4.5999999999999996,NA,38,female,SVD,3,alive and well,NA,38
+#295,6,29,1+0,2,Good,Normal,NAD,71,157,No,NA,Yes,14.7,A,Positive,Negative,Negative,Negative,NAD,0,5.2,NA,39,female,SVD,3.3,alive and well,NA,39
+#82,16,32,2+0,3,Good,Normal,NAD,72,NA,NA,NA,NA,6.9,O,Positive,Negative,Negative,Positive,NAD,0,6.9,NA,39,female,SVD,2.6,alive and well,NA,39
+#180,14,28,4+0,5,Good,Normal,NAD,72,164,blank,n/a,blank,13.3,A,Positive,Negative,Negative,Negative,Pus Cells,0,5,NA,39,female,SVD,3.2,alive and well,NA,39
+#182,12,24,0+0,1,Good,Normal,NAD,72,Blank,blank,n/a,blank,15.5,A,Positive,Negative,Negative,Negative,Pus Cells,0,5.5,NA,41,female,C/S,2.9,alive and well,NA,41
+#253,13,23,1+0,2,Good,Normal,NAD,72,168,No,n/a,Yes,12.4,O,Positive,Negative,Negative,Negative,NAD,0,5.4,NA,40,male,SVD,3.1,alive and well,NA,40
+#265,10,21,0+0,1,Good,Normal,NAD,72,189,No,n/a,Yes,13.6,O,Positive,Negative,Negative,Negative,Pus Cells,0,5.0999999999999996,NA,40,female,SVD,3.4,alive (Admitted for 2weeks pneumonia).,NA,40
+#60,17,25,2+1,4,Good,Normal,NAD,73,156,Yes,AL,NA,13.5,B,Positive,Negative,Negative,Negative,Pus Cells,1200,4.5,NA,41,female,C/S,3.2,alive and well,NA,41
+#223,10,25,1+0,2,Good,Normal,NAD,73,168,No,n/a,Yes,16.2,B,Positive,Negative,Negative,Negative,Pus Cells,0,4.4000000000000004,NA,40,Female,SVD,2.9,alive and well,NA,40
+#270,14,35,1+3,5,Good,Normal,NAD,73,178,No,n/a,Yes,13.7,O,Positive,Negative,Negative,Negative,Pus Cells,0,4.5999999999999996,NA,NA,NA,NA,"ab_mis
+",NA,NA,ABORTION
+#4,27,40,1+0,2,Good,Normal,NAD,74,174,NO,NA,NA,13.6,O,Positive,Negative,Negative,Positive,NAD,0,5.4,NA,40,female,SVD,4.0999999999999996,alive and well,NA,40
+#173,6,28,2+1,4,Good,Normal,NAD,74,161,Yes,AL,blank,15,O,Positive,Negative,Negative,Negative,NAD,800,4.7,NA,41,male,C/S,3.8,alive and well(Lugulu),NA,41
+#175,5,23,0+2,3,Good,Normal,NAD,74,165,blank,n/a,blank,17,O,Positive,Negative,Negative,Negative,NAD,0,4.5999999999999996,NA,40,female,SVD,3.6,alive and well,NA,40
+#201,8,24,1+0,2,Good,Normal,NAD,74,153,blank,n/a,blank,14.8,O,Positive,Negative,Negative,Negative,Pus Cells,0,4.8,NA,40,male,SVD,2.9,alive and well,NA,40
+#203,15,28,2+0,3,Good,Palpitations,NAD,74,171,blank,n/a,blank,13.6,O,Negative,Negative,Negative,Negative,NAD,0,4.4000000000000004,NA,39,female,SVD,3.2,alive and well,NA,39
+#260,16,28,0+0,1,Good,Normal,NAD,74,163,No,n/a,No,14,B,Positive,Negative,Negative,Negative,Pus Cells,0,6.5,NA,39,male,SVD,3.4,alive and well,NA,39
+#282,11,36,3+1,5,Good,Normal,NAD,74,159,No,NA,No,11.1,A,Positive,Negative,Negative,Negative,NAD,0,5.0999999999999996,NA,39,female,SVD,3,alive and well,NA,39
+#288,18,35,4+0,5,Good,Normal,NAD,74,165,No,NA,Yes,12.2,B,Positive,Negative,Negative,Negative,NAD,0,4.4000000000000004,NA,38,male,C/S,3.8,alive and well,NA,38
+#10,3,27,1+0,2,Good,Normal,NAD,75,161,NO,NA,NA,13.9,AB,Positive,Negative,Negative,Positive,NAD,0,6.6,NA,NA,NA,NA,"ab_mis
+",NA,NA,ABORTION
+#87,27,32,2+1,4,Good,Normal,NAD,75,153,NA,NA,NA,12.5,A,Positive,Negative,Negative,Positive,NAD,0,4.3,NA,39,female,C/S,3.7,alive and well,NA,39
+#186,15,35,2+0,3,Good,Normal,NAD,75,163.5,blank,n/a,blank,13.3,B,Positive,Negative,Negative,Negative,NAD,0,5.0999999999999996,NA,40,male,SVD,3,alive and well,NA,40
+#240,16,34,1+0,2,Good,Normal,NAD,75,165,No,n/a,Yes,14.3,B,Positive,Negative,Negative,Negative,Pus Cells,0,4.5999999999999996,NA,NA,NA,NA,"ab_mis
+",NA,NA,ABORTION-5/40weeks
+#210,11,20,0+0,1,Good,Normal,NAD,76,161,Yes,Artesunate,blank,14.1,B,Positive,Negative,Negative,Negative,Pus Cells,800,4.5,NA,38,male,SVD,3.1,alive and well,NA,38
+#95,14,26,2+0,3,Good,Normal,NAD,77,154,Yes,AL,NA,12.9,O,Positive,Negative,Negative,Negative,Pus Cells,8400,6.1,NA,40,male,SVD,3,alive and well,NA,40
+#117,9,20,1+0,2,Good,Normal,NAD,78,156,Yes,AL,YES,13.9,A,Positive,Negative,Negative,Negative,Pus Cells,1200,5.1,NA,41,male,SVD,3,alive and well,NA,41
+#148,7,29,1+0,2,Good,Normal,NAD,78,163,blank,n/a,blank,14.8,B,Positive,Negative,Negative,Negative,Pus Cells,0,4.1,NA,39,female,SVD,3,alive and well,NA,39
+#149,11,20,0+0,1,Good,Normal,NAD,78,162,blank,n/a,blank,13.2,O,Positive,Negative,Negative,Negative,Pus Cells,0,4.4,NA,NA,NA,NA,NA,NA,4.8,WRONG NO
+#34,26,19,0+0,1,Good,Normal,NAD,78.5,175,Yes,Artensunate,NA,7.6,B,Positive,Negative,Negative,Negative,NAD,80000,6.1,NA,40,male,C/S,4.5,alive and well,NA,40
+#18,26,26,0+0,1,Good,Normal,NAD,79,163,NO,NA,NA,NA,NA,NA,NA,NA,Positive,NAD,800,4.7,NA,39,male/male,C/S,3.4/3/5,male twins both alive and well,NA,39
+#20,28,29,1+0,2,Good,Normal,NAD,79,161,Yes,AL,NA,14,O,Positive,Negative,Negative,Negative,Pus Cells,800,4.9,NA,40,male,C/S,3,alive and well,NA,40
+#89,31,23,1+1,3,Good,Normal,NAD,79,153,Yes,AL,NA,11.2,O,Positive,Negative,Negative,Negative,NAD,2400,4.7,NA,38,female,SVD,3.9,alive Admitted at 2 mnths,NA,38
+#135,30,30,0+0,1,Good,Normal,NAD,79,159,YES,AL,yes,13.7,O,Positive,Negative,Negative,Negative,Pus Cells,30000,4.6,NA,40,male,SVD,3.5,alive and well,NA,40
+#197,4,28,1+0,2,Good,Normal,NAD,79,162,blank,n/a,blank,14.6,B,Positive,Negative,Negative,Negative,Pus Cells,0,4.4000000000000004,NA,40,male,C/S,3.6,alive malaria at 8 months,NA,40
+#254,10,25,0+0,1,Good,Normal,NAD,79,150,No,n/a,Yes,12.7,A,Positive,Negative,Negative,Negative,NAD,0,4.7,NA,39,male,SVD,3.5,alive and well,NA,39
+#257,12,39,4+0,5,Good,Normal,NAD,79,158,No,n/a,No,13.8,A,Positive,Negative,Negative,Negative,Epithelial Cells,0,5.4,NA,NA,NA,NA,NA,NA,NA,UNKNOWN
+#294,13,28,1+1,3,Good,Normal,NAD,79,168,No,NA,Yes,15.8,A,Positive,Negative,Negative,Negative,NAD,0,4.5,NA,39,female,SVD,3.4,alive and well,NA,39
+#297,16,25,0+0,1,Good,Normal,NAD,79,161,No,NA,Yes,13.6,O,Positive,Negative,Negative,Negative,Pus Cells,0,3.8,NA,38,male,C/S,3.5,"alive and well
+",NA,38
+#59,20,21,2+0,3,Good,Normal,NAD,80,131,Yes,AL,NA,11.7,O,Positive,Negative,Negative,Negative,Pus Cells,4800,5.3,NA,24,male,SVD,2.6,alive and well,NA,24
+#233,12,26,1+0,2,Good,Normal,NAD,80,172,No,n/a,Yes,14.2,B,Positive,Negative,Negative,Negative,NAD,0,4.7,NA,NA,NA,NA,"ab_mis
+",NA,NA,ABORTION
+#196,28,26,1+1,3,Sick looking,Normal,NAD,81,171,Yes,Artensunate,blank,14.7,A,Positive,Negative,Negative,Negative,Pus Cells,800,4.5,NA,40,female,SVD,3.1,alive and well,NA,40
+#262,15,25,2+0,3,Good,Normal,NAD,81,170,No,n/a,Yes,14.3,B,Positive,Negative,Negative,Negative,NAD,0,5,NA,40,female,SVD,3,alive and well,NA,40
+#49,16,31,2+0,3,Good,Normal,NAD,82,162,Yes,AL,NA,13.8,O,Positive,Negative,Negative,Negative,Pus Cells,0,6.5,NA,40,female,SVD,3.2,alive and well,NA,40
+#176,16,26,2+0,3,Good,Normal,NAD,82,159,blank,n/a,blank,12.9,B,Positive,Negative,Negative,Negative,NAD,0,4.7,NA,40,male,SVD,4.0999999999999996,alive and well,NA,40
+#184,9,24,0+2,3,Good,Normal,NAD,82,170,blank,n/a,blank,14.5,B,Positive,Negative,Negative,Negative,NAD,0,4.4000000000000004,NA,40,male,SVD,3,alive and well,NA,40
+#200,16,37,1+4,6,Good,Normal,NAD,83,172,blank,n/a,blank,13,O,Positive,Negative,Negative,Negative,NAD,0,5.4,NA,39,female,SVD,2.8,alive and well,NA,39
+#24,21,29,3+0,4,Good,Normal,NAD,84,159,NO,NA,NA,13.6,O,Positive,Negative,Negative,Positive,NAD,0,4.8,NA,40,female,SVD,3.8,alive and well,NA,40
+#57,21,34,4+0,5,Good,Normal,NAD,84,165,NA,NA,NA,11.5,O,Positive,Negative,Negative,Positive,NAD,0,4.5,NA,40,male,SVD,3.5,alive and well,NA,40
+#252,15,27,1+0,2,Good,Normal,NAD,86,168,No,n/a,Yes,14.6,O,Positive,Negative,Negative,Negative,NAD,0,5.7,NA,39,female,SVD,2,Died at 2months,NA,39
+#5,9,25,1+0,2,Good,Normal,NAD,90,160,Yes,AL,NA,17.4,B,Positive,Negative,Negative,Negative,Pus Cells,800,4.1,NA,40,female,SVD,4,alive and well,NA,40
+#237,16,35,1+2,4,Good,Normal,NAD,90,170,No,n/a,Yes,13.9,O,Positive,Negative,Negative,Negative,NAD,0,5.5,NA,40,female,C/S,3.5,alive and well,NA,40
+#205,6,27,0+2,3,Good,Normal,NAD,94,166,blank,n/a,blank,12.7,A,Positive,Negative,Negative,Negative,NAD,0,5.2,NA,NA,NA,NA,"ab_mis
+",NA,NA,ABORTION
+#125,34,39,5+0,6,Good,Normal,NAD,95,167,Yes,AL,NA,12.3,A,Positive,Negative,Negative,Negative,NAD,1200,4.5,NA,40,male,SVD,3.2,alive and well,NA,40
+#290,18,24,0+0,2,Good,Normal,NAD,blank,blank,No,NA,Yes,12.1,B,Positive,Negative,Negative,Negative,NAD,0,4.9000000000000004,NA,40,female,SVD,2.8,alive and well,NA,40
+#14,12,23,1+0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Positive,NA,0,5.6,NA,39,male,SVD,3.9,alive and well,NA,39
+#15,14,34,2+1,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Positive,NA,0,4.9,NA,NA,NA,NA,"ab_mis
+",NA,NA,ABORTION
+#16,35,35,2+0,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Positive,NA,0,4.4,NA,40,male,C/S,3.9,alive and well,NA,40
+#73,16,20,1+1,3,Good,Normal,NAD,NA,NA,NA,NA,NA,11.8,O,Positive,Negative,Negative,Negative,Pus Cells,800,4.7,NA,39,female,SVD,3.4,alive and well,NA,39
+#78,17,34,2+0,3,Good,Normal,NAD,NA,156,NA,NA,NA,12.9,A,Positive,Negative,Negative,Negative,Pus Cells,3200,4.4,NA,40,male,SVD,3.1,alive and well,NA,40
+#83,31,18,0+0,1,Good,Normal,NAD,NA,NA,NA,NA,NA,10.9,O,Positive,Negative,Negative,Negative,NAD,1200000,4.5,NA,38,male,SVD,2.5,alive and well,NA,38
+#84,20,17,0+0,1,Good,Normal,NAD,NA,170,NA,NA,NA,11,O,Positive,Negative,Negative,Negative,NAD,2400,5.7,NA,39,female,SVD,3.2,alive and well,NA,39
+#119,23,23,0+1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2800,5.1,NA,NA,NA,NA,WRONG NO,NA,NA,WRONG NO
+#121,17,18,0+0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8000,4.7,NA,39,female,SVD,2.8,alive and well,NA,39
+#123,30,15,3+0,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1600,5.2,NA,38,male,SVD,3.2,alive and well,NA,38
+#126,14,23,0+0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1200,5.5,NA,38,male,SVD,2.9,alive and well,NA,38
+#127,17,32,0+0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3200,5.2,NA,40,female,SVD,3.3,alive and well,NA,40
+#128,37,20,0+0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,800,5.4,NA,39,female,SVD,3,alive and well,NA,39
+#129,16,21,0+0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1200,4.1,NA,39,female,SVD,3,alive and well,NA,39
+#130,36,21,0+0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,640000,4.5,NA,39,male,SVD,3.4,alive and well,NA,39
+#131,19,23,0+0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,400,5.1,NA,40,male,SVD,3.5,alive and well,NA,40
+#132,12,26,0+0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6400,5.2,NA,40,female,C/S,2.8,alive and well,NA,40
+#133,24,27,1+0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12000,5.7,NA,40,male,SVD,2.8,alive and well,NA,40
+#134,25,18,0+0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,120000,5.7,NA,40,male,SVD,3.8,alive and well,NA,40
+#139,13,36,2+0,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,800,5.0999999999999996,NA,40,male,SVD,4,alive and well,NA,40
+#140,21,19,0+0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,800,5.8,NA,39,female,SVD,3,NA,4.2,39

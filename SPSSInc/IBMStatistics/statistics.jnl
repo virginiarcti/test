@@ -1,0 +1,328 @@
+Monday, May 26, 2025 5:35:58 PM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
+GET DATA
+ /TYPE=ODBC
+ /CONNECT="DSN=Excel Files;DBQ=C:\Users\VIRGINIAH\Desktop\Dr Henry Yatich\Effectiveness of Service-Learning in Promoting "+
+ "Graduate Employability in Kenya's HEIs(1-119) (1).xlsx;DriverId=1046;MaxBufferSize=2048;PageTimeout=5;"
+ /SQL='SELECT `I have participated in service-learning before by supporting a c` AS '+
+ 'I_have_participated_in_servicelearning_before_by_supporting_a_c, `Service-Learning improves the ability to secure '+
+ 'employment oppor` AS ServiceLearning_improves_the_ability_to_secure_employment_oppor, `Through Service-Learning, one '+
+ 'gains practical skills relevant to` AS Through_ServiceLearning_one_gains_practical_skills_relevant_to, `Problem-solving '+
+ 'skills are greatly improved from Service-Learnin` AS Problemsolving_skills_are_greatly_improved_from_ServiceLearnin, '+
+ '`Students feel more confident when entering the job market after ` AS '+
+ 'Students_feel_more_confident_when_entering_the_job_market_after_, `Employers value the skills acquired through '+
+ 'Service-Learning act` AS Employers_value_the_skills_acquired_through_ServiceLearning_act, `Service-Learning provides '+
+ 'students with opportunities to engage ` AS ServiceLearning_provides_students_with_opportunities_to_engage_, `My '+
+ 'university’s partnership with industries through Service-Lear` AS '+
+ 'My_universitys_partnership_with_industries_through_ServiceLear, `The projects students work on during Service-Learning '+
+ 'are releva` AS The_projects_students_work_on_during_ServiceLearning_are_releva, `Service-Learning allows students to '+
+ 'understand how industries op` AS ServiceLearning_allows_students_to_understand_how_industries_op, `Through '+
+ 'Service-Learning experience, students establish valuable` AS '+
+ 'Through_ServiceLearning_experience_students_establish_valuable FROM `Sheet1$`'
+ /ASSUMEDSTRWIDTH=255.
+CACHE.
+EXECUTE.
+DATASET NAME DataSet1 WINDOW=FRONT.
+FREQUENCIES VARIABLES=I_have_participated_in_servicelearning_before_by_supporting_a_c
+ /STATISTICS=STDDEV VARIANCE MEAN MEDIAN MODE
+ /HISTOGRAM
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=ServiceLearning_improves_the_ability_to_secure_employment_oppor Through_ServiceLearning_one_gains_practical_skills_relevant_to Problemsolving_skills_are_greatly_improved_from_ServiceLearnin
+ Students_feel_more_confident_when_entering_the_job_market_after_ Employers_value_the_skills_acquired_through_ServiceLearning_act ServiceLearning_provides_students_with_opportunities_to_engage_ My_universitys_partnership_with_industries_through_ServiceLear
+ The_projects_students_work_on_during_ServiceLearning_are_releva ServiceLearning_allows_students_to_understand_how_industries_op Through_ServiceLearning_experience_students_establish_valuable
+ /STATISTICS=STDDEV VARIANCE MEAN MEDIAN MODE
+ /BARCHART FREQ
+ /ORDER=ANALYSIS.
+Saturday, May 31, 2025 9:20:36 PM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
+GET DATA /TYPE=XLSX
+ /FILE="C:\Users\VIRGINIAH\Desktop\Dr Henry Yatich\Effectiveness of Service-Learning in Promoting Graduate Employability in Kenya's HEIs(1-119) (1).xlsx"
+ /SHEET=name 'Sheet1'
+ /CELLRANGE=full
+ /READNAMES=on
+ /ASSUMEDSTRWIDTH=32767.
+EXECUTE.
+DATASET NAME DataSet1 WINDOW=FRONT.
+FREQUENCIES VARIABLES=Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ ServiceLearningimprovestheabilitytosecureemploymentopportunities
+ ThroughServiceLearningonegainspracticalskillsrelevanttocareercho
+ ProblemsolvingskillsaregreatlyimprovedfromServiceLearningactivit
+ Studentsfeelmoreconfidentwhenenteringthejobmarketafterparticipat
+ EmployersvaluetheskillsacquiredthroughServiceLearningactivities
+ ServiceLearningprovidesstudentswithopportunitiestoengagewithindu
+ Myuniversity’spartnershipwithindustriesthroughServiceLearningisb
+ TheprojectsstudentsworkonduringServiceLearningarerelevanttoindus
+ ServiceLearningallowsstudentstounderstandhowindustriesoperateint
+ ThroughServiceLearningexperiencestudentsestablishvaluableprofess
+ /NTILES=4
+ /STATISTICS=RANGE MEDIAN MODE
+ /BARCHART FREQ
+ /ORDER=ANALYSIS.
+NPAR TESTS
+ /CHISQUARE=ServiceLearningimprovestheabilitytosecureemploymentopportunities
+ ThroughServiceLearningonegainspracticalskillsrelevanttocareercho
+ ProblemsolvingskillsaregreatlyimprovedfromServiceLearningactivit
+ Studentsfeelmoreconfidentwhenenteringthejobmarketafterparticipat
+ EmployersvaluetheskillsacquiredthroughServiceLearningactivities
+ ServiceLearningprovidesstudentswithopportunitiestoengagewithindu
+ Myuniversity’spartnershipwithindustriesthroughServiceLearningisb
+ TheprojectsstudentsworkonduringServiceLearningarerelevanttoindus
+ ServiceLearningallowsstudentstounderstandhowindustriesoperateint
+ ThroughServiceLearningexperiencestudentsestablishvaluableprofess
+ /EXPECTED=EQUAL
+ /MISSING ANALYSIS
+ /METHOD=EXACT TIMER(5).
+NPAR TESTS
+ /CHISQUARE=Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ /EXPECTED=EQUAL
+ /MISSING ANALYSIS
+ /METHOD=EXACT TIMER(5).
+NPAR TESTS
+ /BINOMIAL (0.50)=Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm ServiceLearningimprovestheabilitytosecureemploymentopportunities
+ /MISSING ANALYSIS
+ /METHOD=EXACT TIMER(5).
+NPAR TESTS
+ /BINOMIAL (0.50)=ServiceLearningimprovestheabilitytosecureemploymentopportunities Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ /MISSING ANALYSIS
+ /METHOD=EXACT TIMER(5).
+CROSSTABS
+ /TABLES=Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm BY ServiceLearningimprovestheabilitytosecureemploymentopportunities
+ /FORMAT=AVALUE TABLES
+ /STATISTICS=CHISQ PHI CORR BTAU
+ /CELLS=COUNT TOTAL BPROP
+ /COUNT ROUND CELL
+ /BARCHART
+ /METHOD=EXACT TIMER(5).
+CROSSTABS
+ /TABLES=ServiceLearningimprovestheabilitytosecureemploymentopportunities BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ /FORMAT=NOTABLES
+ /STATISTICS=CHISQ PHI CORR BTAU
+ /COUNT ROUND CELL
+ /BARCHART
+ /METHOD=EXACT TIMER(5).
+Saturday, May 31, 2025 11:08:00 PM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
+Wednesday, June 4, 2025 10:30:54 AM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
+Monday, June 16, 2025 1:08:47 PM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
+Monday, June 16, 2025 1:13:10 PM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
+Saturday, July 12, 2025 9:52:41 PM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
+Saturday, July 12, 2025 9:52:42 PM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
+GET
+ FILE='E:\Dr Henry Yatich\Service Learning data.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+* Generalized Linear Models.
+GENLIN ServiceLearningimprovestheabilitytosecureemploymentopportunities (ORDER=ASCENDING) BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm (ORDER=ASCENDING)
+ /MODEL Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ DISTRIBUTION=MULTINOMIAL LINK=CUMLOGIT
+ /CRITERIA METHOD=FISHER(1) SCALE=1 COVB=MODEL MAXITERATIONS=100 MAXSTEPHALVING=5 PCONVERGE=1E-006(ABSOLUTE) SINGULAR=1E-012 ANALYSISTYPE=3(WALD) CILEVEL=95 CITYPE=WALD LIKELIHOOD=FULL
+ /MISSING CLASSMISSING=EXCLUDE
+ /PRINT CPS DESCRIPTIVES MODELINFO FIT SUMMARY SOLUTION (EXPONENTIATED).
+* Generalized Linear Models.
+GENLIN ThroughServiceLearningonegainspracticalskillsrelevanttocareercho (ORDER=ASCENDING) BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm (ORDER=ASCENDING)
+ /MODEL Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ DISTRIBUTION=MULTINOMIAL LINK=CUMLOGIT
+ /CRITERIA METHOD=FISHER(1) SCALE=1 COVB=MODEL MAXITERATIONS=100 MAXSTEPHALVING=5 PCONVERGE=1E-006(ABSOLUTE) SINGULAR=1E-012 ANALYSISTYPE=3(WALD) CILEVEL=95 CITYPE=WALD LIKELIHOOD=FULL
+ /MISSING CLASSMISSING=EXCLUDE
+ /PRINT CPS DESCRIPTIVES MODELINFO FIT SUMMARY SOLUTION (EXPONENTIATED).
+* Generalized Linear Models.
+GENLIN ProblemsolvingskillsaregreatlyimprovedfromServiceLearningactivit (ORDER=ASCENDING) BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm (ORDER=ASCENDING)
+ /MODEL Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ DISTRIBUTION=MULTINOMIAL LINK=CUMLOGIT
+ /CRITERIA METHOD=FISHER(1) SCALE=1 COVB=MODEL MAXITERATIONS=100 MAXSTEPHALVING=5 PCONVERGE=1E-006(ABSOLUTE) SINGULAR=1E-012 ANALYSISTYPE=3(WALD) CILEVEL=95 CITYPE=WALD LIKELIHOOD=FULL
+ /MISSING CLASSMISSING=EXCLUDE
+ /PRINT CPS DESCRIPTIVES MODELINFO FIT SUMMARY SOLUTION (EXPONENTIATED).
+* Generalized Linear Models.
+GENLIN Studentsfeelmoreconfidentwhenenteringthejobmarketafterparticipat (ORDER=ASCENDING) BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm (ORDER=ASCENDING)
+ /MODEL Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ DISTRIBUTION=MULTINOMIAL LINK=CUMLOGIT
+ /CRITERIA METHOD=FISHER(1) SCALE=1 COVB=MODEL MAXITERATIONS=100 MAXSTEPHALVING=5 PCONVERGE=1E-006(ABSOLUTE) SINGULAR=1E-012 ANALYSISTYPE=3(WALD) CILEVEL=95 CITYPE=WALD LIKELIHOOD=FULL
+ /MISSING CLASSMISSING=EXCLUDE
+ /PRINT CPS DESCRIPTIVES MODELINFO FIT SUMMARY SOLUTION (EXPONENTIATED).
+* Generalized Linear Models.
+GENLIN EmployersvaluetheskillsacquiredthroughServiceLearningactivities (ORDER=ASCENDING) BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm (ORDER=ASCENDING)
+ /MODEL Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ DISTRIBUTION=MULTINOMIAL LINK=CUMLOGIT
+ /CRITERIA METHOD=FISHER(1) SCALE=1 COVB=MODEL MAXITERATIONS=100 MAXSTEPHALVING=5 PCONVERGE=1E-006(ABSOLUTE) SINGULAR=1E-012 ANALYSISTYPE=3(WALD) CILEVEL=95 CITYPE=WALD LIKELIHOOD=FULL
+ /MISSING CLASSMISSING=EXCLUDE
+ /PRINT CPS DESCRIPTIVES MODELINFO FIT SUMMARY SOLUTION (EXPONENTIATED).
+* Generalized Linear Models.
+GENLIN ServiceLearningprovidesstudentswithopportunitiestoengagewithindu (ORDER=ASCENDING) BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm (ORDER=ASCENDING)
+ /MODEL Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ DISTRIBUTION=MULTINOMIAL LINK=CUMLOGIT
+ /CRITERIA METHOD=FISHER(1) SCALE=1 COVB=MODEL MAXITERATIONS=100 MAXSTEPHALVING=5 PCONVERGE=1E-006(ABSOLUTE) SINGULAR=1E-012 ANALYSISTYPE=3(WALD) CILEVEL=95 CITYPE=WALD LIKELIHOOD=FULL
+ /MISSING CLASSMISSING=EXCLUDE
+ /PRINT CPS DESCRIPTIVES MODELINFO FIT SUMMARY SOLUTION (EXPONENTIATED).
+* Generalized Linear Models.
+GENLIN Myuniversity’spartnershipwithindustriesthroughServiceLearningisb (ORDER=ASCENDING) BY
+ Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm (ORDER=ASCENDING)
+ /MODEL Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ DISTRIBUTION=MULTINOMIAL LINK=CUMLOGIT
+ /CRITERIA METHOD=FISHER(1) SCALE=1 COVB=MODEL MAXITERATIONS=100 MAXSTEPHALVING=5 PCONVERGE=1E-006(ABSOLUTE) SINGULAR=1E-012
+ ANALYSISTYPE=3(WALD) CILEVEL=95 CITYPE=WALD LIKELIHOOD=FULL
+ /MISSING CLASSMISSING=EXCLUDE
+ /PRINT CPS DESCRIPTIVES MODELINFO FIT SUMMARY SOLUTION (EXPONENTIATED).
+* Generalized Linear Models.
+GENLIN TheprojectsstudentsworkonduringServiceLearningarerelevanttoindus (ORDER=ASCENDING) BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm (ORDER=ASCENDING)
+ /MODEL Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ DISTRIBUTION=MULTINOMIAL LINK=CUMLOGIT
+ /CRITERIA METHOD=FISHER(1) SCALE=1 COVB=MODEL MAXITERATIONS=100 MAXSTEPHALVING=5 PCONVERGE=1E-006(ABSOLUTE) SINGULAR=1E-012 ANALYSISTYPE=3(WALD) CILEVEL=95 CITYPE=WALD LIKELIHOOD=FULL
+ /MISSING CLASSMISSING=EXCLUDE
+ /PRINT CPS DESCRIPTIVES MODELINFO FIT SUMMARY SOLUTION (EXPONENTIATED).
+* Generalized Linear Models.
+GENLIN ServiceLearningallowsstudentstounderstandhowindustriesoperateint (ORDER=ASCENDING) BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm (ORDER=ASCENDING)
+ /MODEL Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ DISTRIBUTION=MULTINOMIAL LINK=CUMLOGIT
+ /CRITERIA METHOD=FISHER(1) SCALE=1 COVB=MODEL MAXITERATIONS=100 MAXSTEPHALVING=5 PCONVERGE=1E-006(ABSOLUTE) SINGULAR=1E-012 ANALYSISTYPE=3(WALD) CILEVEL=95 CITYPE=WALD LIKELIHOOD=FULL
+ /MISSING CLASSMISSING=EXCLUDE
+ /PRINT CPS DESCRIPTIVES MODELINFO FIT SUMMARY SOLUTION (EXPONENTIATED).
+* Generalized Linear Models.
+GENLIN ThroughServiceLearningexperiencestudentsestablishvaluableprofess (ORDER=ASCENDING) BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm (ORDER=ASCENDING)
+ /MODEL Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ DISTRIBUTION=MULTINOMIAL LINK=CUMLOGIT
+ /CRITERIA METHOD=FISHER(1) SCALE=1 COVB=MODEL MAXITERATIONS=100 MAXSTEPHALVING=5 PCONVERGE=1E-006(ABSOLUTE) SINGULAR=1E-012 ANALYSISTYPE=3(WALD) CILEVEL=95 CITYPE=WALD LIKELIHOOD=FULL
+ /MISSING CLASSMISSING=EXCLUDE
+ /PRINT CPS DESCRIPTIVES MODELINFO FIT SUMMARY SOLUTION (EXPONENTIATED).
+SORT CASES  BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm.
+SPLIT FILE LAYERED BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm.
+FREQUENCIES VARIABLES=ServiceLearningimprovestheabilitytosecureemploymentopportunities
+ ThroughServiceLearningonegainspracticalskillsrelevanttocareercho
+ ProblemsolvingskillsaregreatlyimprovedfromServiceLearningactivit
+ Studentsfeelmoreconfidentwhenenteringthejobmarketafterparticipat
+ EmployersvaluetheskillsacquiredthroughServiceLearningactivities
+ ServiceLearningprovidesstudentswithopportunitiestoengagewithindu
+ Myuniversity’spartnershipwithindustriesthroughServiceLearningisb
+ TheprojectsstudentsworkonduringServiceLearningarerelevanttoindus
+ ServiceLearningallowsstudentstounderstandhowindustriesoperateint
+ ThroughServiceLearningexperiencestudentsestablishvaluableprofess
+ /FORMAT=NOTABLE
+ /BARCHART FREQ
+ /ORDER=ANALYSIS.
+SORT CASES  BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm.
+SPLIT FILE SEPARATE BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm.
+FREQUENCIES VARIABLES=ServiceLearningimprovestheabilitytosecureemploymentopportunities
+ ThroughServiceLearningonegainspracticalskillsrelevanttocareercho
+ ProblemsolvingskillsaregreatlyimprovedfromServiceLearningactivit
+ Studentsfeelmoreconfidentwhenenteringthejobmarketafterparticipat
+ EmployersvaluetheskillsacquiredthroughServiceLearningactivities
+ ServiceLearningprovidesstudentswithopportunitiestoengagewithindu
+ Myuniversity’spartnershipwithindustriesthroughServiceLearningisb
+ TheprojectsstudentsworkonduringServiceLearningarerelevanttoindus
+ ServiceLearningallowsstudentstounderstandhowindustriesoperateint
+ ThroughServiceLearningexperiencestudentsestablishvaluableprofess
+ /FORMAT=NOTABLE
+ /BARCHART FREQ
+ /ORDER=ANALYSIS.
+SPLIT FILE OFF.
+CROSSTABS
+ /TABLES=ServiceLearningimprovestheabilitytosecureemploymentopportunities BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ /FORMAT=NOTABLES
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=ThroughServiceLearningonegainspracticalskillsrelevanttocareercho BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ /FORMAT=NOTABLES
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=ProblemsolvingskillsaregreatlyimprovedfromServiceLearningactivit BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ /FORMAT=NOTABLES
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=Studentsfeelmoreconfidentwhenenteringthejobmarketafterparticipat BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ /FORMAT=NOTABLES
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=EmployersvaluetheskillsacquiredthroughServiceLearningactivities BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ /FORMAT=NOTABLES
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=ServiceLearningprovidesstudentswithopportunitiestoengagewithindu BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ /FORMAT=NOTABLES
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=Myuniversity’spartnershipwithindustriesthroughServiceLearningisb BY
+ Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ /FORMAT=NOTABLES
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=TheprojectsstudentsworkonduringServiceLearningarerelevanttoindus BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ /FORMAT=NOTABLES
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=ServiceLearningallowsstudentstounderstandhowindustriesoperateint BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ /FORMAT=NOTABLES
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=ThroughServiceLearningexperiencestudentsestablishvaluableprofess BY Ihaveparticipatedinservicelearningbeforebysupportingacompanyfirm
+ /FORMAT=NOTABLES
+ /COUNT ROUND CELL
+ /BARCHART.
+Monday, July 14, 2025 11:43:30 AM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
+GET
+ FILE='E:\Dr Henry Yatich\Service Learning data.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Monday, July 14, 2025 11:45:42 AM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
+Monday, July 14, 2025 11:49:07 AM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
+GET
+ FILE='E:\Dr Henry Yatich\Service Learning data.sav'.
+*>Warning # 67.  Command name: GET FILE
+*>The document is already in use by another user or process.  If you make
+*>changes to the document they may overwrite changes made by others or your
+*>changes may be overwritten by others.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Monday, July 14, 2025 11:52:47 AM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
+Monday, July 14, 2025 11:55:12 AM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
+Monday, July 14, 2025 9:03:04 PM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
+GET
+ FILE='E:\Dr Henry Yatich\Service Learning data.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Tuesday, July 15, 2025 6:40:52 AM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
